@@ -1,0 +1,9 @@
+server:
+  port: 8888
+spring:
+  profiles:
+    active: dev
+  http:
+    encoding:
+      charset: utf-8
+      enabled: true

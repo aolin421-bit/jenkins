@@ -14,7 +14,7 @@ pipeline {
 
         stage('Deliver') {
             steps {
-                sh './jenkins/scripts/deliver.sh'
+                sh '/var/lib/docker/volumes/jenkins-data/_data/workspace/simple-java-maven-app/jenkins/scripts/deliver.sh'
             }
         }
     }

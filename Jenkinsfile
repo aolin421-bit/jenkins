@@ -14,7 +14,7 @@ pipeline {
 
         stage('Deliver') {
             steps {
-                sudo sh './jenkins/scripts/deliver.sh'
+                sh './jenkins/scripts/deliver.sh'
             }
         }
     }

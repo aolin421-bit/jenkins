@@ -8,7 +8,7 @@ public class MyEntity {
     public static MyEntity instance(){
         return new MyEntity("yo","hei","123");
     }
-    public MyEntity( String firstName,String lastName,String phone ){
+    private MyEntity( String firstName,String lastName,String phone ){
         this.firstName=firstName;
         this.lastName =lastName;
         this.phone    =phone;
